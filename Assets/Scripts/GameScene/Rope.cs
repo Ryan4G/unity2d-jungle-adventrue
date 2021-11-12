@@ -29,7 +29,7 @@ public class Rope : MonoBehaviour
         ResetLength();
     }
 
-    private void ResetLength()
+    public void ResetLength()
     {
         foreach(GameObject segment in ropeSegments)
         {
