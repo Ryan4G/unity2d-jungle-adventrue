@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7284047136933900090}
   m_Layer: 0
   m_Name: StickMan_Head
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 361836172913402668}
   m_Layer: 0
   m_Name: StickMan_LeftLeg
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -346,7 +346,7 @@ GameObject:
   - component: {fileID: 3437870361663142788}
   m_Layer: 0
   m_Name: StickMan
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 3505329515843121402}
   m_Layer: 0
   m_Name: StickMan_Body
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -573,7 +573,7 @@ GameObject:
   - component: {fileID: 6300291476129749248}
   m_Layer: 0
   m_Name: StickMan_LeftHand
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -745,7 +745,7 @@ GameObject:
   - component: {fileID: 5544657201954127426}
   m_Layer: 0
   m_Name: StickMan_RightHand
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -918,7 +918,7 @@ GameObject:
   - component: {fileID: 5903073444822556948}
   m_Layer: 0
   m_Name: StickMan_RightLeg
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
