@@ -99,6 +99,7 @@ public class GameManager : Singleton<GameManager>
 
             foreach(Transform child in currentStickMan.transform)
             {
+                Debug.Log(child.gameObject.name);
                 child.gameObject.tag = "Untagged";
             }
 
@@ -143,9 +144,13 @@ public class GameManager : Singleton<GameManager>
     {
         KillStickMan(StickMan.DamageType.Burning);
     }
+
     public void TreasureCollected()
     {
-        currentStickMan.HoldingTreasure = true;
+        if (currentStickMan != null)
+        {
+            currentStickMan.HoldingTreasure = true;
+        }
     }
 
     public void ExitReached()
@@ -159,7 +164,7 @@ public class GameManager : Singleton<GameManager>
                 audio.PlayOneShot(gameOverSound);
             }
 
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f;
 
             if (gameOverMenu)
             {

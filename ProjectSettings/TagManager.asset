@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Level Background
+    uniqueID: 10091057
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Level Objects
+    uniqueID: 1134988399
+    locked: 0
+  - name: Level Foreground
+    uniqueID: 1073653533
     locked: 0

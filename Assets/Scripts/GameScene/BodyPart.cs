@@ -19,6 +19,11 @@ public class BodyPart : MonoBehaviour
 
         this.tag = "Untagged";
 
+        foreach(Transform child in transform)
+        {
+            child.gameObject.tag = "Untagged";
+        }
+
         transform.SetParent(null, true);
     }
 
