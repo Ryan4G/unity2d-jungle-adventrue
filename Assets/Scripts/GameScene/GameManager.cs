@@ -99,7 +99,7 @@ public class GameManager : Singleton<GameManager>
 
             foreach(Transform child in currentStickMan.transform)
             {
-                Debug.Log(child.gameObject.name);
+                //Debug.Log(child.gameObject.name);
                 child.gameObject.tag = "Untagged";
             }
 

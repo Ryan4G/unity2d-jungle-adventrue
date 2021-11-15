@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: eded1dbc9f6bc8543bdb51f9fc280ef4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -345,12 +345,14 @@ MonoBehaviour:
   armHoldingEmpty: {fileID: 21300000, guid: c2c1575e6dea10244a61b5a8a0ad06dd, type: 3}
   armHoldingTreasure: {fileID: 21300000, guid: 38809e6e2eb4a6e4cba2093ac805e7db, type: 3}
   holdingArm: {fileID: 1100906007458892898}
-  deathPrefab: {fileID: 0}
+  deathPrefab: {fileID: 7043990256346963004, guid: db41ef9c141874b4aa4dc59dcbbcd56a,
+    type: 3}
   flameDeathPrefab: {fileID: 0}
   ghostPrefab: {fileID: 0}
   delayBeforeRemoving: 3
   delayBeforeReleasingGhost: 0.25
-  bloodFountainPrefab: {fileID: 0}
+  bloodFountainPrefab: {fileID: 7043990256346963004, guid: 9f287c50ca5d1304a9ca022c0f96fbb1,
+    type: 3}
 --- !u!1 &1100906007251005199
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +426,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ad6453a9b58155748bd144b62aa5a4a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -558,7 +560,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c2c1575e6dea10244a61b5a8a0ad06dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -703,7 +705,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 15684cd7cc254cb4ba64f68cbd582d74, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

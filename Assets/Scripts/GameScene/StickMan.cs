@@ -149,6 +149,12 @@ public class StickMan : MonoBehaviour
                 }
             }
 
+
+            foreach (Transform child in part.gameObject.transform)
+            {
+                child.gameObject.tag = "Untagged";
+            }
+
             var remove = gameObject.AddComponent<RemoveAfterDelay>();
             remove.delay = delayBeforeRemoving;
         }
